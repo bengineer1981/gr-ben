@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<block>
+  <name>bens_adder</name>
+  <key>ben_bens_adder</key>
+  <category>[ben]</category>
+  <import>import ben</import>
+  <make>ben.bens_adder()</make>
+  <sink>
+    <name>in0</name>
+    <type>float</type>
+  </sink>
+  <sink>
+    <name>in1</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>
