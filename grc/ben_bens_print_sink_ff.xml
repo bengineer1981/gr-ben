@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<block>
+  <name>bens_print_sink_ff</name>
+  <key>ben_bens_print_sink_ff</key>
+  <category>[ben]</category>
+  <import>import ben</import>
+  <make>ben.bens_print_sink_ff()</make>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+</block>

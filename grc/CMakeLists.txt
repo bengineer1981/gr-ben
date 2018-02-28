@@ -18,5 +18,6 @@
 # Boston, MA 02110-1301, USA.
 
 install(FILES
-    ben_bens_adder.xml DESTINATION share/gnuradio/grc/blocks
+    ben_bens_adder.xml
+    ben_bens_print_sink_ff.xml DESTINATION share/gnuradio/grc/blocks
 )

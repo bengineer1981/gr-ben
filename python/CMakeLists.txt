@@ -31,7 +31,8 @@ endif()
 GR_PYTHON_INSTALL(
     FILES
     __init__.py
-    bens_adder.py DESTINATION ${GR_PYTHON_DIR}/ben
+    bens_adder.py
+    bens_print_sink_ff.py DESTINATION ${GR_PYTHON_DIR}/ben
 )
 
 ########################################################################

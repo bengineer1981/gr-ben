@@ -32,4 +32,5 @@ except ImportError:
 
 # import any pure python here
 from bens_adder import bens_adder
+from bens_print_sink_ff import bens_print_sink_ff
 #
